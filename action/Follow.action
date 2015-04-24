@@ -1,0 +1,28 @@
+## ------------------ goal definition ------------------ ##
+
+uint8 mode
+# 0: ONE_CENTERED_LINE mode (considering that are one black centered line in front of robotino's camera)
+# 1: TWO_SIDED_LINES mode (considering that are two black sided lines in front of robotino's camera)
+# 2: TWO_SQUARES mode (considering that are two black squares stamped on an object moving ahead robotino)
+# 3: TWO_SIDED_WALLS mode (considering that robotino is between two wall, one to the right side and another one to the left one).
+# 4: FRONT_SIDED_WALL mode (considering that are a close wall in front of robotino)
+# 5: RIGHT_SIDED_WALL mode (considering that are a close wall on robotino's right side)
+# 6: LEFT_SIDED_WALL mode (considering that are a close wall on robotino's left side)
+# 7: BACK_SIDED_WALL mode (considering that are a close wall behind robotino)
+
+bool positive_way
+# sets true to robotino move to the movement positive way and false to robotino move to the movement negative way
+
+---
+
+## ----------------- result definition ----------------- ##
+
+bool goal_achieved 		
+# it is true if and only if the goal has been achieved
+
+---
+
+## ---------------- feedback definition ---------------- ##
+
+float32 error
+# 

@@ -1,0 +1,24 @@
+## ------------------ goal definition ------------------ ##
+
+float32 move_phi
+# in degrees
+
+---
+
+## ----------------- result definition ----------------- ##
+
+bool goal_achieved		
+# it is true if and only if the goal has been achieved
+
+---
+
+## ---------------- feedback definition ---------------- ##
+
+float32 percentage			
+# in range of 0% to 100%
+
+float32 elapsed_time			
+# in seconds
+
+float32 expected_time		
+# in seconds

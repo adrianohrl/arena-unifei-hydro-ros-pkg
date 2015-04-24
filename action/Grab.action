@@ -1,0 +1,24 @@
+## ------------------ goal definition ------------------ ##
+
+uint8 color
+# 0: RED color
+# 1: GREEN color 
+# 2: BLUE color 
+# 3: YELLOW color
+# 4: ORANGE color
+# 5: PINK color
+# 6: BLACK color
+
+---
+
+## ----------------- result definition ----------------- ##
+
+bool goal_achieved 		
+# it is true if and only if the goal has been achieved
+
+---
+
+## ---------------- feedback definition ---------------- ##
+
+float32 percentage			
+# in range of 0% to 100%

@@ -1,0 +1,23 @@
+## ------------------ goal definition ------------------ ##
+
+uint8 color
+# 0: RED color (considering BLACK color borders at the leaving area)
+# 1: GREEN color (considering BLACK color borders at the leaving area)
+# 2: BLUE color (considering BLACK color borders at the leaving area)
+# 3: YELLOW color (considering BLACK color borders at the leaving area)
+# 4: ORANGE color (considering BLACK color borders at the leaving area)
+# 5: PINK color (considering BLACK color borders at the leaving area)
+
+---
+
+## ----------------- result definition ----------------- ##
+
+bool goal_achieved		
+# it is true if and only if the goal has been achieved
+
+---
+
+## ---------------- feedback definition ---------------- ##
+
+float32 percentage			
+# in range of 0% to 100%
